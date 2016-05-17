@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COMP123S2016-LessonB1", "COMP123S2016-LessonB1\COMP123S2016-LessonB1.csproj", "{6EB1BE1F-0359-4A47-A774-71EFD6356DCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EB1BE1F-0359-4A47-A774-71EFD6356DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB1BE1F-0359-4A47-A774-71EFD6356DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB1BE1F-0359-4A47-A774-71EFD6356DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB1BE1F-0359-4A47-A774-71EFD6356DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
