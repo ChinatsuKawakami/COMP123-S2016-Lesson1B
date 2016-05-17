@@ -12,7 +12,7 @@ using System.Threading.Tasks;
  * Description: This program demonstrates GitHub and version control
  * best practices. We also explore Unit Testing
  * 
- * Version: 0.5 -Added Lesson1UnitTest
+ * Version: 0.6 -Refacterd OutPutStringToConsole
  */
 namespace COMP123S2016_LessonB1
 {/**
@@ -44,7 +44,7 @@ namespace COMP123S2016_LessonB1
         public static string GetUserName()
         {   //initialize variables
             string UserName = "";
-            OutPutStringToConsole("Enter UserName: ",true);
+            OutPutStringToConsole("Enter UserName: ",false);
             UserName = Console.ReadLine();
 
             Console.WriteLine("\n===================\n");
@@ -62,14 +62,10 @@ namespace COMP123S2016_LessonB1
          */
         public static string OutPutStringToConsole(string outputString, bool hasNewLine)
         {
-            if(hasNewLine)
-            {
-                Console.WriteLine(outputString);
-            }else
-            {
-                Console.Write(outputString);
-            }
-           
+
+           //refactered using the ternary operator
+          string suffixString = hasNewLine ? "\n" : "";
+          Console.Write(outputString + suffixString);
            
             return outputString;
         }
